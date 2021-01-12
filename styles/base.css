@@ -1,0 +1,11 @@
+/* Things that would be true across the entire website
+- nav
+- body
+- things that don't change
+*/
+
+* {
+  box-sizing: border-box;
+  /* sets the border of a box to cut into the size of th box */
+  /* A 300px wide box with a border of 100px and a border of 0px will take up the same space on the screen */
+}
