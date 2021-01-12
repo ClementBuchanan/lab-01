@@ -5,7 +5,75 @@
 - the way things look
  */
 
-div #a.section {
-  background-color: rgb(147, 155, 147);
-  border: 1px solid rgb(230, 230, 138);
+#am {
+  background-color: #abebc6;
+  border: 1px solid #17202a;
+ }
+ #bm {
+  background-color: #f9e79f;
+  border: 1px solid #17202a;
+ }
+ #cm {
+  background-color: #f5b041;
+  border: 1px solid #17202a;
+ }
+ #dm {
+  background-color: #daf7a6;
+  border: 1px solid #17202a;
+ }
+ #em {
+  background-color: #ffc300;
+  border: 1px solid #17202a;
+ }
+ #fm {
+  background-color: #ff5733;
+  border: 1px solid #17202a;
+ }
+ #gm {
+  background-color: #1f618d;
+  border: 1px solid #17202a;
+ }
+ #hm {
+  background-color: #34495e;
+  border: 1px solid #17202a;
+ }
+ #im {
+  background-color: #7fb34f;
+  border: 1px solid #17202a;
+ }
+ #ad {
+  background-color: #5781be;
+  border: 1px solid #17202a;
+ }
+ #bd {
+  background-color: #777777;
+  border: 1px solid #17202a;
+ }
+ #cd {
+  background-color: #dfacec;
+  border: 1px solid #17202a;
+ }
+ #dd {
+  background-color: #546baa;
+  border: 1px solid #17202a;
+ }
+ #ed {
+  background-color: #deecab;
+  border: 1px solid #17202a;
+ }
+ #fd {
+  background-color: #ecd0ab;
+  border: 1px solid #17202a;
+ }
+ #gd {
+  background-color: #646e69;
+  border: 1px solid #17202a;
+ }
+ #hd {
+  background-color: #494d1b;
+  border: 1px solid #17202a;
+ }
+ #id {
+  background-color: #299ce9;
+  border: 1px solid #17202a;
  }
