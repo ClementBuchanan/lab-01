@@ -1,0 +1,11 @@
+/* For affecting specific changes to pieces of the page
+- The color of something
+- font size
+- border design
+- the way things look
+ */
+
+div #a.section {
+  background-color: rgb(147, 155, 147);
+  border: 1px solid rgb(230, 230, 138);
+ }

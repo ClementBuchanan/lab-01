@@ -1,0 +1,41 @@
+/* Thing that affects the way elements are laid out on the page.
+- positioning
+- size
+- display (blocks, inline, none)
+- floats
+
+li might go here for floating left
+li colors would not go here
+ */
+ header {
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ /*  https://css-tricks.com/centering-css-complete-guide/ */
+ main {
+  width: 480px;
+}
+section {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 700px) {
+  main {
+    overflow: hidden;
+  }
+  section {
+    float: left;
+    width: 50%;
+    height: 300px;
+  }
+}
