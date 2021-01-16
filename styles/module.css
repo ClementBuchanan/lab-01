@@ -5,75 +5,92 @@
 - the way things look
  */
 
-#am {
+ /* Mobile */
+
+ @media (min-width: 480px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }  
+  section:nth-of-type(1) {
   background-color: #abebc6;
   border: 1px solid #17202a;
  }
- #bm {
+ section:nth-of-type(2) {
   background-color: #f9e79f;
   border: 1px solid #17202a;
  }
- #cm {
+ section:nth-of-type(3) {
   background-color: #f5b041;
   border: 1px solid #17202a;
  }
- #dm {
+ section:nth-of-type(4) {
   background-color: #daf7a6;
   border: 1px solid #17202a;
  }
- #em {
+ section:nth-of-type(5) {
   background-color: #ffc300;
   border: 1px solid #17202a;
  }
- #fm {
+ section:nth-of-type(6) {
   background-color: #ff5733;
   border: 1px solid #17202a;
  }
- #gm {
+ section:nth-of-type(7) {
   background-color: #1f618d;
   border: 1px solid #17202a;
  }
- #hm {
+ section:nth-of-type(8) {
   background-color: #34495e;
   border: 1px solid #17202a;
  }
- #im {
+ section:nth-of-type(9) {
   background-color: #7fb34f;
   border: 1px solid #17202a;
  }
- #ad {
+}
+
+/* Desktop */
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  section:nth-of-type(1) {
   background-color: #5781be;
   border: 1px solid #17202a;
  }
- #bd {
+ section:nth-of-type(2) {
   background-color: #777777;
   border: 1px solid #17202a;
  }
- #cd {
+ section:nth-of-type(3) {
   background-color: #dfacec;
   border: 1px solid #17202a;
  }
- #dd {
+ section:nth-of-type(4) {
   background-color: #546baa;
   border: 1px solid #17202a;
  }
- #ed {
+ section:nth-of-type(5) {
   background-color: #deecab;
   border: 1px solid #17202a;
  }
- #fd {
+ section:nth-of-type(6) {
   background-color: #ecd0ab;
   border: 1px solid #17202a;
  }
- #gd {
+ section:nth-of-type(7) {
   background-color: #646e69;
   border: 1px solid #17202a;
  }
- #hd {
+ section:nth-of-type(8) {
   background-color: #494d1b;
   border: 1px solid #17202a;
  }
- #id {
+ section:nth-of-type(9) {
   background-color: #299ce9;
   border: 1px solid #17202a;
  }
+}
