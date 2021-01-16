@@ -7,14 +7,14 @@
 li might go here for floating left
 li colors would not go here
  */
- header {
+ /* header {
    height: 100px;
    display: flex;
    justify-content: center;
    align-items: center;
- }
+ } */
  /*  https://css-tricks.com/centering-css-complete-guide/ */
- main {
+ /* main {
   width: 960px;
   margin: auto;
 }
@@ -23,73 +23,87 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /*mobile*/
 
 @media (min-width: 480px) {
-  body {
-    width: 100%;
+  main {
+    width: 480px;
     margin: auto;
+  }
+  section {
+    text-align: center;
   }
   section:nth-of-type(1){
     width: 480px;
     height: 75px;
+    line-height: 75px;
   }
   section:nth-of-type(2){
   width: 480px;
   height: 150px;
+  line-height: 150px;
   }
   section:nth-of-type(3), section:nth-of-type(4){
   width: 480px;
   height: 125px;
+  line-height: 125px;
   }
 
-  div {
-    width: 480px;
-  }
   section:nth-of-type(5), section:nth-of-type(6){
     width: 50%;
     height: 250px;
+    line-height: 250px;
     float: left;
   }
   section:nth-of-type(7), section:nth-of-type(8) {
   width: 50%;
   height: 250px;
+  line-height: 250px;
   float: left;
   }
   section:nth-of-type(9) {
   width: 480px;
   height: 80px;
+  line-height: 80px;
+  clear: both;
   }
 } 
 /* desktop*/
 
 @media (min-width: 768px) {
-  body {
+  main {
     width: 100%;
     margin: auto;
   }
   section:nth-of-type(1){
     width: 960px;
     height: 100px;
+    line-height: 100px;
   }
   section:nth-of-type(2){
     width: 200px;
     height: 600px;
+    line-height: 600px;
     float: left;
   }
   section:nth-of-type(3), section:nth-of-type(4) {
     width: 380px;
     height: 200px;
+    line-height: 200px;
     float: left;
   }
   section:nth-of-type(5), section:nth-of-type(6), section:nth-of-type(7), section:nth-of-type(8) {
     width: 190px;
     height: 250px;
+    float: left;
   }
   section:nth-of-type(9) {
     width: 760px;
     height: 150px;
+    line-height: 150px;
+    display: inline-block;
+    /* clear:  both; */
   }
 }
