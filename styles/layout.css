@@ -18,107 +18,78 @@ li colors would not go here
   width: 960px;
   margin: auto;
 }
-section {
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 footer {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/*mobile*/
+
 @media (min-width: 480px) {
-  main {
-    overflow: hidden;
+  body {
+    width: 100%;
+    margin: auto;
   }
-}
-section {
-  float: left;
-  width: 50%;
-  height: 767px;
-}
-#am {
-  width: 480px;
-  height: 75px;
-}
-#bm {
+  section:nth-of-type(1){
+    width: 480px;
+    height: 75px;
+  }
+  section:nth-of-type(2){
   width: 480px;
   height: 150px;
-}
-#cm {
+  }
+  section:nth-of-type(3), section:nth-of-type(4){
   width: 480px;
   height: 125px;
-}
-#dm {
-  width: 480px;
-  height: 125px;
-}
-#em {
-  width: 240px;
+  }
+
+  div {
+    width: 480px;
+  }
+  section:nth-of-type(5), section:nth-of-type(6){
+    width: 50%;
+    height: 250px;
+    float: left;
+  }
+  section:nth-of-type(7), section:nth-of-type(8) {
+  width: 50%;
   height: 250px;
-}
-#fm {
-  width: 240px;
-  height: 250px;
-}
-#gm {
-  width: 240px;
-  height: 250px;
-}
-#hm {
-  width: 240px;
-  height: 250px;
-}
-#im {
+  float: left;
+  }
+  section:nth-of-type(9) {
   width: 480px;
   height: 80px;
-}
-@media (max-width: 960px) {
-  main {
-    overflow: hidden;
   }
-}
-section {
-  float: left;
-  width: 100%;
-  height: 768px;
-}
-#ad {
-  width: 960px;
-  height: 100px;
-}
-#bd {
-  width: 200px;
-  height: 600px;
-}
-#cd {
-  width: 380px;
-  height: 200px;
-}
-#dd {
-  width: 380px;
-  height: 200px;
-}
-#ed {
-  width: 190px;
-  height: 250px;
-}
-#fd {
-  width: 190px;
-  height: 250px;
-}
-#gd {
-  width: 190px;
-  height: 250px;
-}
-#hd {
-  width: 190px;
-  height: 250px;
-}
-#id {
-  width: 760px;
-  height: 150px;
+} 
+/* desktop*/
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  section:nth-of-type(1){
+    width: 960px;
+    height: 100px;
+  }
+  section:nth-of-type(2){
+    width: 200px;
+    height: 600px;
+    float: left;
+  }
+  section:nth-of-type(3), section:nth-of-type(4) {
+    width: 380px;
+    height: 200px;
+    float: left;
+  }
+  section:nth-of-type(5), section:nth-of-type(6), section:nth-of-type(7), section:nth-of-type(8) {
+    width: 190px;
+    height: 250px;
+  }
+  section:nth-of-type(9) {
+    width: 760px;
+    height: 150px;
+  }
 }
